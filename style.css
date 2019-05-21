@@ -23,56 +23,19 @@ img{
 	width: 100%;
 }
 
-.clearfix::after{
-	content: "";
-	display: block;
-	clear: both;
-}
-
 .box{
 
-	height: 300px;
+	min-height: 300px;
 }
 
 #red{
 	background: red;
-	order: 2;
 }
 
 #blue{
 	background: blue;
-	order: 1;
 }
 
 #green{
 	background: green;
-}
-
-.flex-container{
-	display: block;
-}
-
-@media (min-width: 1024px) {
-	#green{
-		background: #000;
-	}
-
-	#blue{
-		background: lightblue;
-	}
-
-	.flex-container{
-		display: flex;
-	}
-
-	.float-right{
-		float: left;
-		width: 200px;
-
-	}
-
-	.box{
-		width: 300px;
-	}
-
 }
