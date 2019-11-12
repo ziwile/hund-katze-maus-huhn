@@ -1,3 +1,85 @@
-*{
-	box-sizing: border-box;
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: orange;
+}
+
+p {
+  position: absolute;
+  background: white;
+  padding: 5px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  padding: 20px 0 30px 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin: 2rem auto;
+  background-color: lightgrey;
+}
+
+.row {
+  display: flex;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.tiere {
+  margin: 0 5px;
+  position: relative;
+}
+
+#hund {
+  bottom: 0;
+  left: 0;
+	z-index: 3;
+}
+
+#katze {
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+}
+
+#maus {
+  top: 0;
+  right: 0;
+}
+
+#huhn {
+  top: 0;
+  left: 0;
+}
+
+span {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  /* cia jei norime, kad paveikslas iskiltu virs uzraso */
+}
+
+#eins {
+  bottom: 0;
+  left: 0;
+}
+
+#zwei {
+  bottom: 0;
+  right: 0;
 }
